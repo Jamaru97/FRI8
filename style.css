@@ -1,0 +1,38 @@
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#article{
+    padding-left: 20px;
+}
+body{
+    margin: 0px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin: 0px;
+    padding: 20px;
+}
+#grid ol{
+    border-right: 3px solid gray;
+    width: 100px;
+    height: 748px;
+    margin: 0px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
